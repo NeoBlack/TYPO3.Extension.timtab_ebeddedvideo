@@ -1,0 +1,33 @@
+# Setup
+
+plugin.tx_timtab_embeddedvideo {
+	player.width = 425
+	link.PreText = Direkt
+	# remove the wrapping div, default = 0
+	disableWrappingInBaseClass = 0
+	videoportals {
+		# width / height
+		youtube.ratio = 0.82352941176470588235294117647059
+		google.ratio = 0.82352941176470588235294117647059
+		myvideo.ratio = 0.86352941176470588235294117647059
+		clipfish.ratio = 0.8189655172413793103448275862069
+		sevenload.ratio = 0.82368421052631578947368421052632
+		revver.ratio = 0.81666666666666666666666666666667
+		metacafe.ratio = 0.8625
+		yahoo.ratio = 0.82352941176470588235294117647059
+		ifilm.ratio = 0.81473214285714285714285714285714
+		myspace.ratio = 0.80465116279069767441860465116279
+		brightcove.ratio = 0.84773662551440329218106995884774 
+		aniboom.ratio = 0.83035714285714285714285714285714
+		carmondo.ratio = 0.88
+		vimeo.ratio = 0.56
+		local.ratio = 0.82352941176470588235294117647059
+	}
+	localPlayer {
+		src = fileadmin/flvplayer.swf
+	}
+	mp3Player {
+		src = fileadmin/mp3player.swf
+		showeq = true
+	}
+}

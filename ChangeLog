@@ -1,0 +1,45 @@
+(add new changes on top of this file)
+
+08-05-17
+	* release 2.1.0
+	* new: API functionality
+	* new: TS-Param: disableWrappingInBaseClass
+
+08-05-16
+	* release 2.0.6
+	* new videoportal: vimeo.com
+
+07-12-19
+	* release 2.0.5
+	* new videoportal: carmondo.de
+
+07-07-11
+	* release 2.0.4
+	* implement hook "extendMarkerHook"
+
+07-04-22
+	* release 2.0.3
+	* bugfix PATH_tslib definition bug
+
+07-02-14
+	* background transparency for all videoportal player
+
+07-02-12
+	* release 2.0.0
+	* new videoportals: brightcove, aniboom
+	* new feature (#0000014): local videos, supported file extensions:
+		* mov, qt
+		* wmv, avi
+		* mpg, mpeg, mp2, mpa, mpe, mpv2, lsf, lsx, asf, asr, asx
+		* ram, rm
+	* new feature (#0000014): FLV and MP3 Player (you need the flvplayer.swf and mp3player.swf from http://www.jeroenwijering.com/ , supported file extensions:
+		* flv, swf
+		* jpg, png, gif
+		* mp3
+
+07-01-29
+	* release 2.0.0RC1 with the new feature of embedding local videos
+
+07-01-17 Frank Nägler  <typo3@naegler.net>
+
+	* Initial release
