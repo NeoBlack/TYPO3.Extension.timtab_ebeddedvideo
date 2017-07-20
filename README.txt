@@ -1,6 +1,2 @@
-Please report bugs, or new feature request at http://bugs.naegler.net
-
-see documentation for installation informations
-
-Docu:
-absolut pathes like /fileadmin/test.flv
+This repository is onöy a backup repository.
+This extension is not maintained anymore.
